@@ -40,6 +40,20 @@ They may contain:
   - Segmentation tasks are resource-intensive; scaling up requires either cloud computing or a powerful local GPU.
   - Labeling complexity and memory bottlenecks are serious considerations in vision tasks.
 
+### 🔹 `bass_seeker`
+
+- **Description**:  
+  An audio-feature-based recommendation system designed to suggest *bass-heavy* songs by analyzing low-frequency energy rather than relying on conventional metadata like genre or artist.
+
+- **Reason for Archival**:  
+  During development, I realized that the **publicly accessible Spotify API** imposes heavy limitations on access to detailed audio features.  
+  Additionally, I lacked sufficient **signal processing knowledge** to implement my own robust bass-detection algorithm from raw waveform data.  
+  As a result, the project was paused until either higher-resolution data access becomes available or my understanding of audio analysis improves.
+
+- **Takeaways**:
+  - API access constraints can fundamentally limit ML system design.
+  - A deeper understanding of domain-specific algorithms (e.g., spectral analysis) is necessary before building a production-quality audio recommender.
+
 ---
 
 ## 🔁 Possible Future Use
