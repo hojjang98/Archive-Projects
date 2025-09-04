@@ -1,12 +1,17 @@
-# 🗃️ Archive Projects
+# 🗃️ Archived Projects
 
 This repository contains projects that were discontinued or paused mid-way.  
 Although no longer under active development, these projects are kept for future reference or possible continuation.
 
+⚠️ **Note on Code Quality**  
+The code inside these archived projects is often **prototype-level and not fully polished**.  
+They reflect experiments, partial implementations, or learning processes rather than production-ready code.  
+I chose to preserve them as-is, since they represent valuable learning experiences.
+
 They may contain:
-- Partial code implementations,
-- Experimental results,
-- Learnings from real-world constraints (e.g., lack of data, hardware limitations).
+- Partial code implementations
+- Experimental results
+- Learnings from real-world constraints (e.g., lack of data, hardware limitations)
 
 ---
 
@@ -39,6 +44,8 @@ They may contain:
 - **Takeaways**:
   - Segmentation tasks are resource-intensive; scaling up requires either cloud computing or a powerful local GPU.
   - Labeling complexity and memory bottlenecks are serious considerations in vision tasks.
+
+---
 
 ### 🔹 `bass_seeker`
 
